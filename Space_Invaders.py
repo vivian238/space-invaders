@@ -16,3 +16,21 @@ RED    = (255,     0,     0)
 PINK   = (250,   100,   250)
 PURPLE = (160,     0,   250)
 CYAN   = (  0,   255,   255)
+
+# _________Create New Window_________
+size = (650, 500)
+gameDisplay = pygame.display.set_mode(size)
+pygame.display.set_caption("Space Invaders")
+
+# _________Set Display, Player, Bullet, & Enemy Constants_________
+GAME_TITLE = 'Space Invaders'                           # Display
+BACKGROUND_COLOR = BLACK
+
+PLAYER_ONE = 'Player 1'                                 # Player
+
+BULLET_WIDTH = 5                                        # Bullet
+BULLET_HEIGHT = 5
+
+ENEMY_WIDTH = 25                                        # Enemy
+ENEMY_HEIGHT = 25
+ENEMY = 'Enemy'
